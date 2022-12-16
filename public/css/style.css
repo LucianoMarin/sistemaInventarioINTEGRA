@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Signika:wght@700&display=swap');
+@import '~bootstrap/dist/css/bootstrap.min.css';
+body {
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgb(236, 234, 234);
+    font-size: 18px;
+    margin: 0; 
+}
+
+.clogin {
+
+
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+
+}
+
+
+
+
+thead{
+background-color: #044a90;
+color:white;
+
+}
+
+
+
+.inEstilo {
+    padding-top: 2px;
+    border-style: none;
+    font-size: 18px;
+    color: rgb(65, 65, 65);
+    width: 100%;
+    height: 42px;
+    padding-left: 8px;
+    border: 1px solid rgb(187, 187, 187);
+    border-radius: 8px;
+    /*text-transform:capitalize;*/
+}
+
+.btnEstilo {
+    border: 0px;
+    border-radius: 6px;
+    background-color: #015cb9;
+    padding: 2px;
+    width: 70px;
+    height: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnEstilo2 {
+    border: 0px;
+    border-radius: 6px;
+    background-color: #76bd1d;
+    width: 100%;
+    margin: 2px;
+    height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnEstilo3 {
+    border: 0px;
+    border-radius: 6px;
+    background-color: #005cb9;
+    width: 100%;
+    margin: 2px;
+    height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnEstilo4 {
+    border: 0px;
+    border-radius: 6px;
+    background-color: #e31d1a;
+    width: 100%;
+    margin: 2px;
+    height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btnEstilo5 {
+    border: 0px;
+    border-radius: 6px;
+    background-color: #76bd1d;
+    width: 100%;
+    margin: 2px;
+    height: 30px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.pbtn {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.tLogin {
+    display: flex;
+    color: black;
+    justify-content: center;
+    padding-top: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+
+}
+
+.mSuperior {
+    background-color: #044a90;
+    list-style: none;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+.navaa {
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 9px;
+}
+
+
+
+
+
+.push-right {
+    color: rgb(255, 255, 255);
+    padding: 9px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: auto;
+}
+
+
+
+
+a:link,
+a:visited,
+a:active,
+a {
+    text-decoration: none;
+
+}
+
+a:link:hover,
+a:visited:hover,
+a:active:hover,
+a:hover {
+    text-decoration: none;
+}
+
+.olinks {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.na {
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    padding: 9px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.na:hover {
+    background-color: rgb(240, 238, 238);
+    height: auto;
+}
+
+.cDPrincipal {
+    margin-top: 20px;
+    display: flex;
+    border-radius: 2px;
+    justify-content: center;
+    padding: 8px;
+    border: 1px solid rgb(238, 238, 238);
+    box-shadow: 0px 10px 60px 10px rgb(235, 235, 235) inset;
+}
+
+.cDPrincipal2 {
+    display: flex;
+    border-radius: 2px;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+
+
+.contenedor2{
+    text-align: center;
+}
+
+
+
+
+.centrado p{
+font-size: 40px;
+text-align: right;
+font-family: 'Signika', sans-serif;
+color: #053e69;
+
+
+
+}
+
+
+
+
+.iLogin {
+    width: 300px;
+    height: 100px;
+
+
+}
+
+.tbaner {
+    color: #ffffff;
+    font-family: 'Signika', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+
+}
+
+.banner2 {
+    width: 25px;
+    height: 20px;
+
+}
+
+
+.cModales {
+
+    padding: 8px;
+    border-radius: 2px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 20px 20px 50px 20px rgb(238, 236, 236) inset;
+}
+
+
+.estiloTitulos {
+    margin-top:20px;
+    color: #044a90;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'Signika', sans-serif;
+
+}
+
+.estiloTitulos2 {
+    margin-top:20px;
+    color: #04902e;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'Signika', sans-serif;
+
+}
+
+.contenedor {
+    min-height:100vh;
+    position:relative;
+   
+   }
+   
+   footer{
+    background-color:red;
+    color:white;
+    padding:15px;
+   }
+
+
+
+
+input[type=text] {
+margin-top: 5px;
+padding: 5px;
+border: 1px solid rgb(201, 201, 201);
+border-radius: 6px;
+font-style: none;
+font-size:16px;
+
+}
+
+
+input[type=password] {
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 6px;
+    font-style: none;
+    font-size:16px;
+    
+    }
+    
+
+select{
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 6px;
+    font-style: none;
+    font-size:16px;
+    width: auto;
+    
+    }
+
+label {   
+font-family:sans-serif;
+font-weight: 500;
+padding-top:12px;
+font-size: 16px;
+color: #1f1f1f;
+
+
+}
+.emLogin{
+font-size: 15px;
+font-weight: 400px;
+
+
+}
+
+.tmInput{
+    margin-top: 5px;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 8px;
+    font-style: none;
+    width: 240px;
+}
+
+input[type=date] {
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid rgb(201, 201, 201);
+    
+    }
+
+.navDerecho{
+text-align: right;
+    border: 1px solid red;
+}
+
+.cPagina{
+
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 20px 50px 10px rgb(234, 234, 234) inset;
+}
+
+
+
+
+
+
+    @media (max-width:60em){
+table tr{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid rgb(187, 187, 187);
+
+
+}
+
+table thead{
+    display:none;
+}
+
+
+
+
+}
+
+
+
+
+
